@@ -19,13 +19,13 @@ import {
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
-export const RESUME_DATA = {
+export const RESUME_DATA_EN = {
   name: "Yasin Tunçer",
   initials: "YT",
   location: "Bursa, Turkey",
   locationLink: "https://www.google.com/maps/place/Bursa",
   about:
-    "Half Full Stack Engineer, AI and machine learning developer, and DevOps enthusiast. Passionate about leveraging technology to build innovative and high-quality solutions.",
+    "Half Stack developer, AI and machine learning developer, and DevOps enthusiast. Passionate about leveraging technology to build innovative and high-quality solutions.",
   summary:
     "As an AI and Machine Learning Engineer, I focus on developing and implementing AI models and computer vision algorithms. I excel in creating and managing infrastructure, handling DevOps tasks, and integrating advanced AI-based tools. My expertise includes Python, C++, Pytorch, Docker, and Linux. I have worked on various projects such as Imagine, Repeater, Upscaler, and Archivist. I am always eager to learn new technologies and improve my skills, thriving in environments where collaboration and innovation are encouraged.",
   avatarUrl: "https://avatars.githubusercontent.com/yasintuncerr",
@@ -62,14 +62,15 @@ export const RESUME_DATA = {
       school: "Bursa Technical University",
       degree: "Master's Degree in Computer Engineering",
       start: "2024",
-      end:"present"
+      end: "present",
+    },
   ],
   work: [
     {
       company: "A.I.T",
       link: "https://ai.ait.com.tr",
       badges: [],
-      title: "Full stack Developer",
+      title: "Half stack Developer",
       logo: NSNLogo,
       start: "2018",
       end: "present",
@@ -120,7 +121,7 @@ export const RESUME_DATA = {
         "Generative AI",
         ],
       description:
-        "The Imagine tools, part of the AI Tools product suite, allow users to generate new creative digital textile design patterns.",
+        "The Imagine tool, part of the AI Tools product suite, allow users to generate new creative digital textile design patterns.",
       logo: ParabolLogo,
       link: {
         label: "Imagine",
@@ -136,7 +137,7 @@ export const RESUME_DATA = {
         "Computer Vision"
         ],
       description:
-        "The Repeater tools, part of the AI Tools product suite, convert unaligned digital textile design patterns into seamlessly repeating patterns, making them ready for conventional printing.",
+        "The Repeater tool, part of the AI Tools product suite, convert unaligned digital textile design patterns into seamlessly repeating patterns, making them ready for conventional printing.",
       logo: ParabolLogo,
       link: {
         label: "Repeater",
@@ -152,10 +153,10 @@ export const RESUME_DATA = {
         "Computer Vision"
         ],
       description:
-        "The Upscaler tools, part of the AI Tools product suite, enhance low-quality digital textile design patterns into high-quality versions.",
+        "The Upscaler tool, part of the AI Tools product suite, enhance low-quality digital textile design patterns into high-quality versions.",
       logo: ParabolLogo,
       link: {
-        label: "Repeater",
+        label: "Upscaler",
         href: "https://ai.ait.com.tr/project/ai-image-upscaler/",
       },
     },
@@ -173,8 +174,7 @@ export const RESUME_DATA = {
         "Linux",
         "DevOps"
       ],
-      description:
-        "The Archivist classifies and organizes huge textile pattern archives. It provides a web-based interface for previewing, filtering, and searching patterns using AI-based image search, designed for textile designers and manufacturers.",
+      description:"The Archivist classifies huge textile pattern archives. It provides a web-based interface for previewing, filtering, and searching patterns, also  AI-based image search, designed for textile designers and manufacturers.",
       logo: ParabolLogo,
       link: {
         label: "archivist",
@@ -205,7 +205,7 @@ export const RESUME_DATA = {
         "Computer Vision",
       ],
       description:
-        "The PSD Files Multi-Channel Handler has been improved. The base project was forked from MolecularMatters/psd_sdk.",
+        "Multi-Channel Handler has been improved. The base project was forked from MolecularMatters/psd_sdk.",
       logo: ParabolLogo,
       link: {
         label: "psd_sdk",
