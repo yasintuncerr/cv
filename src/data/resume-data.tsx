@@ -25,7 +25,7 @@ export const RESUME_DATA_EN = {
   location: "Bursa, Turkey",
   locationLink: "https://www.google.com/maps/place/Bursa",
   about:
-    "Half Stack developer, AI and machine learning developer, and DevOps enthusiast. Passionate about leveraging technology to build innovative and high-quality solutions.",
+    "R&D, AI and machine learning developer, and DevOps enthusiast. Passionate about leveraging technology to build innovative and high-quality solutions.",
   summary:
     "As an AI and Machine Learning Engineer, I focus on developing and implementing AI models and computer vision algorithms. I excel in creating and managing infrastructure, handling DevOps tasks, and integrating advanced AI-based tools. My expertise includes Python, C++, Pytorch, Docker, and Linux. I have worked on various projects such as Imagine, Repeater, Upscaler, and Archivist. I am always eager to learn new technologies and improve my skills, thriving in environments where collaboration and innovation are encouraged.",
   avatarUrl: "https://avatars.githubusercontent.com/yasintuncerr",
@@ -70,7 +70,7 @@ export const RESUME_DATA_EN = {
       company: "A.I.T",
       link: "https://ai.ait.com.tr",
       badges: [],
-      title: "Half stack Developer",
+      title: "R&D Developer",
       logo: NSNLogo,
       start: "2018",
       end: "present",
@@ -205,7 +205,7 @@ export const RESUME_DATA_EN = {
         "Computer Vision",
       ],
       description:
-        "Multi-Channel Handler has been improved. The base project was forked from MolecularMatters/psd_sdk.",
+        "Multi-Channel file handler has been improved. The base project was forked from MolecularMatters/psd_sdk.",
       logo: ParabolLogo,
       link: {
         label: "psd_sdk",
