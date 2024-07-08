@@ -19,7 +19,7 @@ import {
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
-export const RESUME_DATA_EN = {
+export const RESUME_DATA = {
   name: "Yasin Tunçer",
   initials: "YT",
   location: "Bursa, Turkey",
