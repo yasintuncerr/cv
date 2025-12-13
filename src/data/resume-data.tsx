@@ -1,237 +1,239 @@
 import type { ResumeData } from "@/lib/types";
 
 export const RESUME_DATA: ResumeData = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
-  about: "Full Stack Engineer dedicated to building high-quality products.",
+  name: "Yasin Tunçer",
+  initials: "YT",
+  location: "Bursa, Turkey, TRT",
+  locationLink: "https://www.google.com/maps/place/Bursa",
+  about: "Software Engineer | AI Researcher",
   summary: (
     <>
-      Full Stack Engineer specializing in high-performance React applications,
-      scalable Node.js services, and real-time collaboration systems.
-      Experienced in technical architecture design and remote team leadership.
+      Experienced Software Engineer and AI Researcher with a strong background
+      in developing innovative solutions. Passionate about leveraging AI to
+      solve complex problems and drive technological advancements.
     </>
   ),
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  avatarUrl: "https://avatars.githubusercontent.com/u/62839963?v=4",
+  personalWebsiteUrl: "https://yasintuncer.com",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "yasintuncer@gmail.com",
+    tel: "+905533193420",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/yasintuncerr",
         icon: "github",
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/yasintuncer/",
         icon: "linkedin",
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/gauss_kafa",
         icon: "x",
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Bursa Uludağ University",
+      degree: "Bachelor's Degree in Electronics and Communication Engineering",
+      start: "2012",
+      end: "2018",
     },
+
+   {
+    school: "Bursa Uludağ University",
+    degree: "Master's Degree in Computer Engineering",
+    start: "2024",
+    end: "2027 (Expected)",
+   } 
   ],
   work: [
     {
-      company: "Motion",
-      link: "https://motionapp.com/",
-      badges: ["Remote", "AI", "React", "Next.js", "TypeScript", "AdonisJS"],
-      title: "Senior Software Engineer",
-      start: "2025",
-      end: null,
-      description: (
-        <>
-          Working on internal AI agents platform allowing marketing specialists
-          to create AI workflows.
-        </>
-      ),
-    },
-    {
-      company: "Film.io",
-      link: "https://film.io",
-      badges: ["Remote", "React", "Next.js", "TypeScript", "Node.js"],
-      title: "Software Architect",
-      start: "2024",
-      end: "2025",
-      description: (
-        <>
-          Leading technical architecture of a blockchain-based film funding
-          platform.
-          <ul className="list-inside list-disc">
-            <li>
-              Architecting migration from CRA to Next.js for improved
-              performance, SEO, and DX
-            </li>
-            <li>
-              Established release process enabling faster deployments and
-              reliable rollbacks
-            </li>
-            <li>
-              Implementing system-wide monitoring and security improvements
-            </li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: [
-        "Remote",
-        "React",
-        "TypeScript",
-        "Node.js",
-        "GraphQL",
-        "Tailwind CSS",
-      ],
-      title: "Senior Full Stack Developer",
-      start: "2021",
+      company: "AIT",
+      link: "https://ait.com.tr/",
+      badges: [],
+      title: "R&D AI Researcher",
+      start: "2018",
       end: "2024",
       description: (
         <>
-          Senior developer and squad leader for an enterprise agile meeting
-          platform.
+          Specialized in AI research and development with focus on computer vision and digital image processing solutions.
           <ul className="list-inside list-disc">
             <li>
-              Built design system with Tailwind CSS, improving development speed
-              and time to market
+              Designed and deployed generative AI models.
             </li>
             <li>
-              Implemented engineering practices: PR automation, code review
-              guidelines, and workflows
+              Built deep learning pipelines for computer vision applications in production environments
             </li>
             <li>
-              Open source contributions to Relay DevTools and React i18n tooling
+              Developed on-premise AI systems.
+            </li>
+            <li>
+              Led TUBITAK TEYDEB 1505 funded projects.
             </li>
           </ul>
         </>
       ),
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote", "React", "TypeScript", "Node.js", "Android", "Kotlin"],
-      title: "Lead Android Developer → Full Stack Developer",
-      start: "2015",
-      end: "2021",
+      company: "Histopathai",
+      link: "https://histopathai.com/",
+      badges: [],
+      title: "Full Stack Developer & AI Researcher",
+      start: "2024",
+      end: "Present",
       description: (
         <>
-          Successfully transitioned from mobile to full-stack development while
-          leading distributed teams.
+          Building AI-powered solutions for medical imaging and histopathology as part of master's degree research
+          
           <ul className="list-inside list-disc">
             <li>
-              Led frontend team at Evercast, building real-time platform
-              supporting 30+ users per room with HD streaming and collaboration
-              tools
+              Developing generative AI models
             </li>
             <li>
-              Developed offline-first Android app for DKMS, improving donor
-              registration process
+              Building scalable backend infrastructure with Go and Python.
             </li>
             <li>
-              Led development teams across multiple successful client projects
+              Managing cloud deployment on GCP
+            </li>
+            <li>
+              Collaborating with pathologists.
+            </li>
+            <li>
+              supported by TUBITAK ARDEB 1005 grant.
             </li>
           </ul>
         </>
       ),
     },
+],
+  projects: [
     {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: ["On Site", "Android", "Java", "Kotlin"],
-      title: "Android Developer → Lead Android Developer",
-      start: "2012",
-      end: "2015",
-      description: (
-        <>
-          First Android developer, grew and led a team of 15+ engineers while
-          establishing engineering culture.
-          <ul className="list-inside list-disc">
-            <li>
-              Developed apps for major Polish companies including LOT, Polskie
-              Radio, and Agora
-            </li>
-            <li>Built and mentored high-performing mobile development team</li>
-          </ul>
-        </>
-      ),
+      title: "Aitools",
+      description: "Developed an AI-powered tool platfrom offering various utilities such as image generation, enhancement, editing, and more for textile designers and digital artists.",
+
+      link: {
+        label: "aitools.ait.com.tr",
+        href: "https://ai.ait.com.tr/",
+      },
+      techStack: [
+        "Python",
+        "Generative AI",
+        "Stable Diffusion",
+        "Vision Transformers",
+        "Computer Vision",
+        "Docker",
+        "Linux",
+        "OnPremise Systems",
+        "MLOps",
+      ],
+
     },
     {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: ["On Site", "C/C++", "LTE", "Agile"],
-      title: "C/C++ Developer",
-      start: "2010",
-      end: "2012",
+      title: "Archivist",
+      description: "The Archivist is an AI-powered document management system that utilizes advanced computer vision techniques to automatically categorize, tag, and retrieve documents based on their content, enhancing organizational efficiency and accessibility.",
+      link: {
+        label: "Archivist",
+        href: "https://ai.ait.com.tr/project/archivist/"
+      },
+      techStack: [
+        "Python",
+        "C++",
+        "Machine Learning",
+        "Deep Learning",
+        "Computer Vision",
+        "Deep Learning",
+        "Big TIFF Handling",
+        "PSD Parsing",
+        "Docker",
+        "Linux",
+        "OnPremise Systems",
+      ],
+    },
+    {
+      title: "Fabric Defect Detection System",
+      description: "Developed real-time system for detecting fabric defects before digital printing",
+      techStack: [
+        "Python",
+        "C++",
+        "Computer Vision",
+        "Deep Learning",
+        "Embedded Systems",
+        "Linux",
+      ],
+    },
+    {
+      title: "Cxr-Difusion",
+      description: "Developed a system to generate synthetic chest X-ray images using diffusion models.",
+      techStack: [
+        "Python",
+        "Deep Learning",
+        "Generative AI",
+        "Diffusion Models",
+        "Medical Imaging",
+      ],
+    },
+    {
+      title: "Histopathai Viewer",
+      description: "Developed a web-based viewer for high-resolution histopathological images with AI-powered annotation and analysis tools.",
+      techStack: [
+        "Go",
+        "Python",
+        "Medical Imaging",
+        "AI Integration",
+        "Cloud Deployment",
+        "TypeScript",
+        "Vue.js",
+        "Docker",
+      ],
+      link: {
+        label: "Histopathai Viewer",
+        href: "https://histopathai.com/",
+      },
+    },
+    {
+      title: "E Commerce Customer Review Sentiment Analysis",
       description:
-        "Developed software for LTE base stations at enterprise scale, gaining strong fundamentals in software architecture, testing practices, and cross-team collaboration.",
+        "Developed a sentiment analysis tool to analyze customer reviews for e-commerce platforms, providing insights into customer satisfaction and product feedback.",
+      techStack: [
+        "Python",
+        "Natural Language Processing",
+        "Machine Learning",
+        "Data Analysis",
+      ],
+      link: {
+        label: "Customer Reviews Analysis",
+        href: "https://github.com/yasintuncerr/customer-reviews-analysis",
+      },
+    },
+    {
+      title: "PiCam - Raspberry Pi Camera Module",
+      description: "Developed a custom camera module using on Raspberry Pi for various imaging applications. It has Dual Stream support (still- streaing)",
+      techStack: ["C", "C++", "Raspberry Pi", "Embedded Systems", "Linux"],
     },
   ],
   skills: [
-    "React/Next.js/Remix",
+    "Computer Vision",
+    "Machine Learning",
+    "Deep Learning",
+    "Generative AI",
+    "Vision Transformers",
+    "Transformers",
+    "Stable Diffusion",
+    "GANs",
+    "Python",
+    "PyTorch/TensorFlow",
+    "OpenCV",
+    "C++",
+    "Go",
     "TypeScript",
-    "Tailwind CSS",
-    "Design Systems",
-    "WebRTC",
-    "WebSockets",
-    "Node.js",
-    "GraphQL",
-    "Relay",
+    "Linux",
+    "Docker",
+    "Cloud Platforms (GCP, AWS)",
     "System Architecture",
-    "Remote Team Leadership",
-  ],
-  projects: [
-    {
-      title: "Monito",
-      techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
-      description:
-        "Browser extension for debugging web applications. Includes taking screenshots, screen recording, E2E tests generation and generating bug reports",
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Consultly",
-      techStack: [
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-        "Tailwind CSS",
-        "PostgreSQL",
-        "Redis",
-      ],
-      description:
-        "Platform for online consultations with real-time video meetings and scheduling",
-      link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
-      },
-    },
-    {
-      title: "Minimalist CV",
-      techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
-      description:
-        "An open source minimalist, print friendly CV template with a focus on readability and clean design. >9k stars on GitHub",
-      link: {
-        label: "Minimalist CV",
-        href: "https://github.com/BartoszJarocki/cv",
-      },
-    },
   ],
 } as const;
