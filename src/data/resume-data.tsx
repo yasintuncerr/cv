@@ -144,7 +144,6 @@ export const RESUME_DATA: ResumeData = {
         "Python",
         "C++",
         "Machine Learning",
-        "Deep Learning",
         "Computer Vision",
         "Deep Learning",
         "Big TIFF Handling",
