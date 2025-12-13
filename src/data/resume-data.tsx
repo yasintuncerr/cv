@@ -8,9 +8,9 @@ export const RESUME_DATA: ResumeData = {
   about: "Software Engineer | AI Researcher",
   summary: (
     <>
-      Experienced Software Engineer and AI Researcher with a strong background
-      in developing innovative solutions. Passionate about leveraging AI to
-      solve complex problems and drive technological advancements.
+     Software Engineer and AI Researcher with experience in both industry and academia. 
+     Skilled in developing scalable software architectures and AI solutions. 
+     Dedicated to researching and adapting to new technologies, with experience in managing R&D projects funded by national research agencies (TUBITAK).
     </>
   ),
   avatarUrl: "https://avatars.githubusercontent.com/u/62839963?v=4",
@@ -61,19 +61,19 @@ export const RESUME_DATA: ResumeData = {
       end: "2024",
       description: (
         <>
-          Specialized in AI research and development with focus on computer vision and digital image processing solutions.
+          Conducted R&D on AI solutions, specifically focusing on computer vision and digital image processing.
           <ul className="list-inside list-disc">
             <li>
-              Designed and deployed generative AI models.
+              <strong>Designed and deployed</strong> generative AI models for industrial applications.
             </li>
             <li>
-              Built deep learning pipelines for computer vision applications in production environments
+              <strong>Built</strong> deep learning pipelines for computer vision applications in production environments.
             </li>
             <li>
-              Developed on-premise AI systems.
+              <strong>Developed</strong> on-premise AI systems and infrastructure.
             </li>
             <li>
-              Led TUBITAK TEYDEB 1505 funded projects.
+              <strong>Led</strong> projects funded by TUBITAK TEYDEB 1505.
             </li>
           </ul>
         </>
@@ -88,23 +88,23 @@ export const RESUME_DATA: ResumeData = {
       end: "Present",
       description: (
         <>
-          Building AI-powered solutions for medical imaging and histopathology as part of master's degree research
+          Building AI-powered solutions for medical imaging and histopathology as part of master's degree research.
           
           <ul className="list-inside list-disc">
             <li>
-              Developing generative AI models
+              <strong>Developing</strong> generative AI models for synthetic data generation.
             </li>
             <li>
-              Building scalable backend infrastructure with Go and Python.
+              <strong>Architecting</strong> scalable backend infrastructure using Go and Python.
             </li>
             <li>
-              Managing cloud deployment on GCP
+              <strong>Managing</strong> cloud deployments and services on Google Cloud Platform (GCP).
             </li>
             <li>
-              Collaborating with pathologists.
+              <strong>Collaborating</strong> with pathologists to refine AI diagnostic tools.
             </li>
             <li>
-              supported by TUBITAK ARDEB 1005 grant.
+              <strong>Conducting</strong> research supported by the TUBITAK ARDEB 1005 grant.
             </li>
           </ul>
         </>
@@ -114,7 +114,7 @@ export const RESUME_DATA: ResumeData = {
   projects: [
     {
       title: "Aitools",
-      description: "Developed an AI-powered tool platfrom offering various utilities such as image generation, enhancement, editing, and more for textile designers and digital artists.",
+      description: "Developed an AI-powered tool platform offering various utilities such as image generation, enhancement, editing, and more for textile designers and digital artists.",
 
       link: {
         label: "aitools.ait.com.tr",
@@ -135,7 +135,7 @@ export const RESUME_DATA: ResumeData = {
     },
     {
       title: "Archivist",
-      description: "The Archivist is an AI-powered document management system that utilizes advanced computer vision techniques to automatically categorize, tag, and retrieve documents based on their content, enhancing organizational efficiency and accessibility.",
+      description: "Developed an AI-powered document management system utilizing advanced computer vision techniques to automatically categorize, tag, and retrieve documents based on their content, enhancing organizational efficiency.",
       link: {
         label: "Archivist",
         href: "https://ai.ait.com.tr/project/archivist/"
@@ -155,7 +155,7 @@ export const RESUME_DATA: ResumeData = {
     },
     {
       title: "Fabric Defect Detection System",
-      description: "Developed real-time system for detecting fabric defects before digital printing",
+      description: "Developed a real-time system for detecting fabric defects before digital printing.",
       techStack: [
         "Python",
         "C++",
@@ -166,8 +166,8 @@ export const RESUME_DATA: ResumeData = {
       ],
     },
     {
-      title: "Cxr-Difusion",
-      description: "Developed a system to generate synthetic chest X-ray images using diffusion models.",
+      title: "Cxr-Diffusion",
+      description: "Developed a system to generate synthetic chest X-ray images using diffusion models to augment medical datasets",
       techStack: [
         "Python",
         "Deep Learning",
@@ -178,7 +178,7 @@ export const RESUME_DATA: ResumeData = {
     },
     {
       title: "Histopathai Viewer",
-      description: "Developed a web-based viewer for high-resolution histopathological images with AI-powered annotation and analysis tools.",
+      description: "Developed a web-based viewer for high-resolution histopathological images, featuring AI-powered annotation and real-time analysis tools",
       techStack: [
         "Go",
         "Python",
@@ -195,12 +195,14 @@ export const RESUME_DATA: ResumeData = {
       },
     },
     {
-      title: "E Commerce Customer Review Sentiment Analysis",
+      title: "E-Commerce Customer Review Sentiment Analysis",
       description:
-        "Developed a sentiment analysis tool to analyze customer reviews for e-commerce platforms, providing insights into customer satisfaction and product feedback.",
+        "Developed a sentiment analysis tool to evaluate customer reviews for e-commerce platforms, providing actionable insights into customer satisfaction and product feedback.",
       techStack: [
         "Python",
         "Natural Language Processing",
+        "Text Embeddings",
+        "Transformers",
         "Machine Learning",
         "Data Analysis",
       ],
@@ -211,7 +213,7 @@ export const RESUME_DATA: ResumeData = {
     },
     {
       title: "PiCam - Raspberry Pi Camera Module",
-      description: "Developed a custom camera module using on Raspberry Pi for various imaging applications. It has Dual Stream support (still- streaing)",
+      description: "Developed a custom camera module application on Raspberry Pi utilizing the libcamera API. Features Dual Stream support for simultaneous still capture and video streaming.",
       techStack: ["C", "C++", "Raspberry Pi", "Embedded Systems", "Linux"],
     },
   ],
