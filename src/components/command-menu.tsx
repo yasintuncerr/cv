@@ -20,9 +20,12 @@ interface Props {
 export const CommandMenu = ({ links }: Props) => {
   const [open, setOpen] = React.useState(false);
   const [isMac, setIsMac] = React.useState(false);
-  
+
   React.useEffect(() => {
-    setIsMac(typeof window !== "undefined" && window.navigator.userAgent.indexOf("Mac") > -1);
+    setIsMac(
+      typeof window !== "undefined" &&
+        window.navigator.userAgent.indexOf("Mac") > -1
+    );
     const down = (e: KeyboardEvent) => {
       if (e.key === "j" && (e.metaKey || e.ctrlKey)) {
         e.preventDefault();

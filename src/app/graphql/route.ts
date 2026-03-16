@@ -8,7 +8,7 @@ import { buildSchema } from "type-graphql";
 import { MeResolver } from "../../apollo/resolvers";
 
 let apolloServer: ApolloServer;
-let handler: any;
+let handler: (req: NextRequest) => Promise<Response>;
 
 try {
   const schema = await buildSchema({
@@ -44,7 +44,7 @@ try {
   console.error("Failed to initialize Apollo Server:", error);
 
   // Fallback handler for initialization errors
-  handler = async () => {
+  handler = async (_req: NextRequest) => {
     return NextResponse.json(
       { error: "GraphQL server initialization failed" },
       { status: 500 }
