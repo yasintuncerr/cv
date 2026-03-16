@@ -146,13 +146,6 @@ function PrintContact({ contact, personalWebsiteUrl }: PrintContactProps) {
     });
   }
 
-  contact.social.forEach((social) => {
-    printLinks.push({
-      href: social.url,
-      label: social.url.replace(/^https?:\/\//, "").replace(/\/$/, ""),
-    });
-  });
-
   return (
     <div className="hidden gap-x-2 font-mono text-sm text-foreground/80 print:flex print:text-[12px]">
       {printLinks.map((item, index) => (
@@ -205,7 +198,7 @@ export function Header() {
       <Avatar
         className="size-28"
         src={RESUME_DATA.avatarUrl}
-        alt={`${RESUME_DATA.name}'s profile picture`}
+        alt={`${RESUME_DATA.name} profile`}
         fallback={RESUME_DATA.initials}
       />
     </header>

@@ -1,6 +1,6 @@
 # Yasin Tunçer - Minimalist CV
 
-[![Live Site](https://img.shields.io/badge/Live-yasintuncer.com-0A66C2?logo=google-chrome&logoColor=white)](https://yasintuncer.com)
+[![Live Site](https://img.shields.io/badge/Live-yasintuncer.com-0A66C2?logo=googlechrome&logoColor=white)](https://yasintuncer.com)
 [![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?logo=typescript)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.4-38B2AC?logo=tailwind-css)](https://tailwindcss.com/)
@@ -8,7 +8,7 @@
 [![Docker](https://img.shields.io/badge/Docker-ready-2496ED?logo=docker)](https://www.docker.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-[![Site Preview](https://yasintuncer.com/opengraph-image.png)](https://yasintuncer.com)
+[![Site Preview](https://image.thum.io/get/width/1200/noanimate/https://yasintuncer.com)](https://yasintuncer.com)
 
 A clean and modern web app that renders a minimalist CV/Resume with a print-friendly layout.
 

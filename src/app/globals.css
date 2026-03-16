@@ -78,3 +78,17 @@
 .print-force-new-page {
   page-break-before: always;
 }
+
+@media print {
+  section,
+  .print-avoid-break {
+    break-inside: avoid-page;
+    page-break-inside: avoid;
+  }
+
+  h2,
+  h3 {
+    break-after: avoid-page;
+    page-break-after: avoid;
+  }
+}

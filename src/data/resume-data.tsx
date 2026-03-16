@@ -16,7 +16,7 @@ export const RESUME_DATA: ResumeData = {
       research to production-ready deployment.
     </>
   ),
-  avatarUrl: "https://avatars.githubusercontent.com/u/62839963?v=4",
+  avatarUrl: "https://github.com/yasintuncerr.png?size=400",
   personalWebsiteUrl: "https://yasintuncer.com",
   contact: {
     email: "yasintuncer@gmail.com",
