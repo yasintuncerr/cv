@@ -1,14 +1,14 @@
-![cv](https://github.com/BartoszJarocki/cv/assets/1017620/79bdb9fc-0b20-4d2c-aafe-0526ad4a71d2)
+# Yasin Tunçer - Minimalist CV
 
-# Minimalist CV
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FBartoszJarocki%2Fcv)
+[![Live Site](https://img.shields.io/badge/Live-yasintuncer.com-0A66C2?logo=google-chrome&logoColor=white)](https://yasintuncer.com)
 [![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?logo=typescript)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.4-38B2AC?logo=tailwind-css)](https://tailwindcss.com/)
 [![pnpm](https://img.shields.io/badge/pnpm-8+-F69220?logo=pnpm)](https://pnpm.io/)
 [![Docker](https://img.shields.io/badge/Docker-ready-2496ED?logo=docker)](https://www.docker.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+[![Site Preview](https://yasintuncer.com/opengraph-image.png)](https://yasintuncer.com)
 
 A clean and modern web app that renders a minimalist CV/Resume with a print-friendly layout.
 
@@ -47,7 +47,7 @@ A clean and modern web app that renders a minimalist CV/Resume with a print-frie
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/BartoszJarocki/cv.git
+   git clone <your-repository-url>
    cd cv
    ```
 
@@ -75,7 +75,8 @@ A clean and modern web app that renders a minimalist CV/Resume with a print-frie
 pnpm dev          # Start development server
 pnpm build        # Build for production
 pnpm start        # Start production server
-pnpm lint         # Run ESLint
+pnpm check        # Run Biome checks
+pnpm check:fix    # Run Biome checks with auto-fix
 ```
 
 ## 📁 Project Structure
@@ -176,6 +177,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
+- Original inspiration and baseline structure by [Bartosz Jarocki](https://github.com/BartoszJarocki)
 - [shadcn/ui](https://ui.shadcn.com/) for the beautiful UI components
 - [Vercel](https://vercel.com/) for hosting and deployment
 - All contributors who have helped improve this project
@@ -183,5 +185,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 <p align="center">
-  Made with ❤️ by <a href="https://github.com/BartoszJarocki">Bartosz Jarocki</a>
+   Customized and maintained by <a href="https://github.com/yasintuncerr">Yasin Tunçer</a><br/>
+   Based on the original work by <a href="https://github.com/BartoszJarocki">Bartosz Jarocki</a>
 </p>
