@@ -3,14 +3,17 @@ import type { ResumeData } from "@/lib/types";
 export const RESUME_DATA: ResumeData = {
   name: "Yasin Tunçer",
   initials: "YT",
-  location: "Bursa, Turkey, TRT",
+  location: "Bursa, Turkey",
   locationLink: "https://www.google.com/maps/place/Bursa",
-  about: "Software Engineer | AI Researcher",
+  about: "Software Engineer | AI Product, Backend, Embedded Systems & Edge AI",
   summary: (
     <>
-     Software Engineer and AI Researcher with experience in both industry and academia. 
-     Skilled in developing scalable software architectures and AI solutions. 
-     Dedicated to researching and adapting to new technologies, with experience in managing R&D projects funded by national research agencies (TUBITAK).
+      Software Engineer building end-to-end AI products across cloud and edge
+      systems. Experienced in backend architecture, scalable SaaS AI platforms,
+      and production computer vision pipelines. Strong background in Embedded
+      Linux, custom Yocto BSP development, and low-latency hardware-accelerated
+      video workflows. Led and delivered TUBITAK-funded R&D projects from
+      research to production-ready deployment.
     </>
   ),
   avatarUrl: "https://avatars.githubusercontent.com/u/62839963?v=4",
@@ -34,6 +37,11 @@ export const RESUME_DATA: ResumeData = {
         url: "https://x.com/gauss_kafa",
         icon: "x",
       },
+      {
+        name: "Hugging Face",
+        url: "https://huggingface.co/Yasintuncer",
+        icon: "huggingface",
+      },
     ],
   },
   education: [
@@ -43,79 +51,154 @@ export const RESUME_DATA: ResumeData = {
       start: "2012",
       end: "2018",
     },
-
-   {
-    school: "Bursa Uludağ University",
-    degree: "Master's Degree in Computer Engineering",
-    start: "2024",
-    end: "2027 (Expected)",
-   } 
+    {
+      school: "Bursa Uludağ University",
+      degree: "Master's Degree in Computer Engineering",
+      start: "2024",
+      end: "2027 (Expected)",
+    },
   ],
   work: [
-    {
-      company: "AIT",
-      link: "https://ait.com.tr/",
-      badges: [],
-      title: "R&D AI Researcher",
-      start: "2018",
-      end: "2024",
-      description: (
-        <>
-          Conducted R&D on AI solutions, specifically focusing on computer vision and digital image processing.
-          <ul className="list-inside list-disc">
-            <li>
-              <strong>Designed and deployed</strong> generative AI models for industrial applications.
-            </li>
-            <li>
-              <strong>Built</strong> deep learning pipelines for computer vision applications in production environments.
-            </li>
-            <li>
-              <strong>Developed</strong> on-premise AI systems and infrastructure.
-            </li>
-            <li>
-              <strong>Led</strong> projects funded by TUBITAK TEYDEB 1505.
-            </li>
-          </ul>
-        </>
-      ),
-    },
     {
       company: "Histopathai",
       link: "https://histopathai.com/",
       badges: [],
-      title: "Full Stack Developer & AI Researcher",
+      title: "AI Product Engineer (Full-Stack)",
       start: "2024",
       end: "Present",
       description: (
         <>
-          Building AI-powered solutions for medical imaging and histopathology as part of master's degree research.
-          
-          <ul className="list-inside list-disc">
+          Building scalable AI products for medical imaging.
+          <ul className="mt-2 list-inside list-disc">
             <li>
-              <strong>Developing</strong> generative AI models for synthetic data generation.
+              <strong>Generative AI:</strong> Trained SD models for synthetic
+              pathology data.
             </li>
             <li>
-              <strong>Architecting</strong> scalable backend infrastructure using Go and Python.
+              <strong>Microservices:</strong> Built event-driven inference on
+              GCP.
             </li>
             <li>
-              <strong>Managing</strong> cloud deployments and services on Google Cloud Platform (GCP).
+              <strong>WSI Viewer:</strong> Built real-time gigapixel annotation
+              tooling.
             </li>
             <li>
-              <strong>Collaborating</strong> with pathologists to refine AI diagnostic tools.
-            </li>
-            <li>
-              <strong>Conducting</strong> research supported by the TUBITAK ARDEB 1005 grant.
+              <strong>R&D Grant:</strong> Contributed to TUBITAK 1005 (1M TL)
+              research delivery.
             </li>
           </ul>
         </>
       ),
     },
-],
+    {
+      company: "Freelance / Independent Contractor",
+      link: "https://yasintuncer.com",
+      badges: [],
+      title: "Embedded Systems Engineer (Linux)",
+      start: "2024",
+      end: "2025",
+      description: (
+        <>
+          Delivered embedded Linux solutions for edge AI deployments.
+          <ul className="mt-2 list-inside list-disc">
+            <li>
+              <strong>Yocto BSP:</strong> Built lean, production OS images.
+            </li>
+            <li>
+              <strong>Kernel Tuning:</strong> Removed video bottlenecks.
+            </li>
+            <li>
+              <strong>Streaming:</strong> Developed zero-copy C pipelines.
+            </li>
+            <li>
+              <strong>P2P Networking:</strong> Delivered resilient Wi-Fi Direct
+              stacks.
+            </li>
+          </ul>
+        </>
+      ),
+    },
+    {
+      company: "AIT",
+      link: "https://ait.com.tr/",
+      badges: [],
+      title: "AI R&D Engineer",
+      start: "2018",
+      end: "2024",
+      description: (
+        <>
+          Conducted R&D on computer vision and industrial AI systems.
+          <ul className="mt-2 list-inside list-disc">
+            <li>
+              <strong>Generative AI:</strong> Shipped production-ready models.
+            </li>
+            <li>
+              <strong>CV Pipelines:</strong> Built robust training pipelines.
+            </li>
+            <li>
+              <strong>On-Prem Systems:</strong> Deployed end-to-end AI stacks.
+            </li>
+            <li>
+              <strong>TUBITAK:</strong> Led TEYDEB 1505 R&D delivery.
+            </li>
+          </ul>
+        </>
+      ),
+    },
+  ],
   projects: [
     {
-      title: "Aitools",
-      description: "Developed an AI-powered tool platform offering various utilities such as image generation, enhancement, editing, and more for textile designers and digital artists.",
-
+      title: "Histopathai WSI Viewer",
+      description:
+        "Built a web-based viewer for high-resolution histopathology slides with real-time AI-assisted annotation.",
+      techStack: [
+        "Go",
+        "Python",
+        "Medical Imaging",
+        "AI Integration",
+        "Cloud Deployment",
+        "TypeScript",
+        "Vue.js",
+        "Docker",
+      ],
+      link: {
+        label: "Histopathai WSI Viewer",
+        href: "https://histopathai.com/",
+      },
+    },
+    {
+      title: "Edge P2P Stream Engine",
+      description:
+        "Built a peer-to-peer streaming system for edge devices with low-latency transport and resilient connectivity.",
+      techStack: [
+        "C",
+        "Embedded Linux",
+        "GStreamer",
+        "V4L2",
+        "Wi-Fi Direct",
+        "Systemd",
+      ],
+      link: {
+        label: "p2p-stream",
+        href: "https://github.com/yasintuncerr/p2p-stream",
+      },
+    },
+    {
+      title: "CXR Synthetic Data Generator",
+      description:
+        "Developed a diffusion-based pipeline to generate synthetic chest X-ray images for dataset augmentation.",
+      techStack: [
+        "Python",
+        "Deep Learning",
+        "Generative AI",
+        "Diffusion Models",
+        "Medical Imaging",
+      ],
+    },
+    {
+      title: "AI Tools Platform",
+      description:
+        "Built a SaaS AI platform for image generation, enhancement, and editing used by design teams.",
       link: {
         label: "aitools.ait.com.tr",
         href: "https://ai.ait.com.tr/",
@@ -131,14 +214,14 @@ export const RESUME_DATA: ResumeData = {
         "OnPremise Systems",
         "MLOps",
       ],
-
     },
     {
-      title: "Archivist",
-      description: "Developed an AI-powered document management system utilizing advanced computer vision techniques to automatically categorize, tag, and retrieve documents based on their content, enhancing organizational efficiency.",
+      title: "Archivist Document AI",
+      description:
+        "Built an AI document system that automatically classifies, tags, and retrieves files using computer vision.",
       link: {
         label: "Archivist",
-        href: "https://ai.ait.com.tr/project/archivist/"
+        href: "https://ai.ait.com.tr/project/archivist/",
       },
       techStack: [
         "Python",
@@ -154,8 +237,9 @@ export const RESUME_DATA: ResumeData = {
       ],
     },
     {
-      title: "Fabric Defect Detection System",
-      description: "Developed a real-time system for detecting fabric defects before digital printing.",
+      title: "Fabric Defect Inspection AI",
+      description:
+        "Developed a real-time vision system to detect fabric defects before digital printing.",
       techStack: [
         "Python",
         "C++",
@@ -166,38 +250,9 @@ export const RESUME_DATA: ResumeData = {
       ],
     },
     {
-      title: "Cxr-Diffusion",
-      description: "Developed a system to generate synthetic chest X-ray images using diffusion models to augment medical datasets",
-      techStack: [
-        "Python",
-        "Deep Learning",
-        "Generative AI",
-        "Diffusion Models",
-        "Medical Imaging",
-      ],
-    },
-    {
-      title: "Histopathai Viewer",
-      description: "Developed a web-based viewer for high-resolution histopathological images, featuring AI-powered annotation and real-time analysis tools",
-      techStack: [
-        "Go",
-        "Python",
-        "Medical Imaging",
-        "AI Integration",
-        "Cloud Deployment",
-        "TypeScript",
-        "Vue.js",
-        "Docker",
-      ],
-      link: {
-        label: "Histopathai Viewer",
-        href: "https://histopathai.com/",
-      },
-    },
-    {
-      title: "E-Commerce Customer Review Sentiment Analysis",
+      title: "E-Commerce Review Intelligence",
       description:
-        "Developed a sentiment analysis tool to evaluate customer reviews for e-commerce platforms, providing actionable insights into customer satisfaction and product feedback.",
+        "Built a sentiment analysis pipeline for e-commerce reviews to surface product and customer satisfaction insights.",
       techStack: [
         "Python",
         "Natural Language Processing",
@@ -212,29 +267,41 @@ export const RESUME_DATA: ResumeData = {
       },
     },
     {
-      title: "PiCam - Raspberry Pi Camera Module",
-      description: "Developed a custom camera module application on Raspberry Pi utilizing the libcamera API. Features Dual Stream support for simultaneous still capture and video streaming.",
+      title: "PiCam Dual-Stream Camera App",
+      description:
+        "Built a custom Raspberry Pi camera application with dual-stream support for still capture and live video.",
       techStack: ["C", "C++", "Raspberry Pi", "Embedded Systems", "Linux"],
     },
   ],
   skills: [
     "Computer Vision",
-    "Machine Learning",
     "Deep Learning",
     "Generative AI",
     "Vision Transformers",
-    "Transformers",
     "Stable Diffusion",
     "GANs",
     "Python",
-    "PyTorch/TensorFlow",
-    "OpenCV",
+    "C",
     "C++",
     "Go",
     "TypeScript",
-    "Linux",
+    "Embedded Linux",
+    "Yocto Project (BSP, Bitbake)",
+    "Device Tree",
+    "Systemd",
+    "Bash Scripting",
+    "GStreamer",
+    "V4L2 (Video4Linux2)",
+    "Hardware Acceleration",
+    "Wi-Fi Direct",
     "Docker",
-    "Cloud Platforms (GCP, AWS)",
+    "Google Cloud Platform (GCP)",
+    "AWS",
+    "MLOps",
+    "Microservices",
+    "Event-Driven Architecture",
+    "Machine Learning",
+    "Linux",
     "System Architecture",
   ],
 } as const;
