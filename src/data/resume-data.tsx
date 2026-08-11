@@ -9,7 +9,8 @@ export const RESUME_DATA: ResumeData = {
   summary: (
     <>
       Software Engineer building end-to-end AI products across cloud and edge
-      systems. Experienced in backend architecture, scalable SaaS AI platforms,
+      systems. Currently co-founding Mirasight, an AI-driven computer vision
+      startup. Experienced in backend architecture, scalable SaaS AI platforms,
       and production computer vision pipelines. Strong background in Embedded
       Linux, custom Yocto BSP development, and low-latency hardware-accelerated
       video workflows. Led and delivered TUBITAK-funded R&D projects from
@@ -60,31 +61,28 @@ export const RESUME_DATA: ResumeData = {
   ],
   work: [
     {
-      company: "Histopathai",
-      link: "https://histopathai.com/",
+      company: "Mirasight",
+      link: "https://mirasight.com.tr",
       badges: [],
-      title: "AI Product Engineer (Full-Stack)",
-      start: "2024",
+      title: "Co-Founder",
+      start: "2026",
       end: "Present",
       description: (
         <>
-          Building scalable AI products for medical imaging.
+          Co-founding an early-stage AI startup building computer vision
+          products.
           <ul className="mt-2 list-inside list-disc">
             <li>
-              <strong>Generative AI:</strong> Trained SD models for synthetic
-              pathology data.
+              <strong>Product & Strategy:</strong> Defining product direction
+              and technical roadmap from the ground up.
             </li>
             <li>
-              <strong>Microservices:</strong> Built event-driven inference on
-              GCP.
+              <strong>AI Engineering:</strong> Designing and building the core
+              computer vision pipeline.
             </li>
             <li>
-              <strong>WSI Viewer:</strong> Built real-time gigapixel annotation
-              tooling.
-            </li>
-            <li>
-              <strong>R&D Grant:</strong> Contributed to TUBITAK 1005 (1M TL)
-              research delivery.
+              <strong>Full-Stack Delivery:</strong> Owning architecture,
+              backend, and infrastructure for the MVP.
             </li>
           </ul>
         </>
@@ -96,23 +94,27 @@ export const RESUME_DATA: ResumeData = {
       badges: [],
       title: "Embedded Systems Engineer (Linux)",
       start: "2024",
-      end: "2025",
+      end: "Present",
       description: (
         <>
           Delivered embedded Linux solutions for edge AI deployments.
           <ul className="mt-2 list-inside list-disc">
             <li>
-              <strong>Yocto BSP:</strong> Built lean, production OS images.
+              <strong>Yocto BSP:</strong> Built and maintained lean, production
+              Yocto/BitBake OS images for embedded Linux boards.
             </li>
             <li>
-              <strong>Kernel Tuning:</strong> Removed video bottlenecks.
+              <strong>Boot & Kernel:</strong> Customized U-Boot, device tree,
+              and kernel configuration; resolved bootloader and storage
+              reliability issues.
             </li>
             <li>
-              <strong>Streaming:</strong> Developed zero-copy C pipelines.
+              <strong>Streaming:</strong> Developed zero-copy C pipelines for
+              hardware-accelerated video capture and streaming.
             </li>
             <li>
-              <strong>P2P Networking:</strong> Delivered resilient Wi-Fi Direct
-              stacks.
+              <strong>P2P Networking:</strong> Delivered a resilient Wi-Fi
+              Direct streaming stack integrated as systemd services.
             </li>
           </ul>
         </>
@@ -148,21 +150,22 @@ export const RESUME_DATA: ResumeData = {
   ],
   projects: [
     {
-      title: "Histopathai WSI Viewer",
+      title: "Histopathai — AI Medical Imaging Platform",
       description:
-        "Built a web-based viewer for high-resolution histopathology slides with real-time AI-assisted annotation.",
+        "Built a scalable AI platform for digital pathology: trained generative models for synthetic pathology data, developed event-driven microservices for cloud inference, and built a real-time gigapixel whole-slide-image viewer with AI-assisted annotation. Delivered as part of a TUBITAK 1005-funded R&D project.",
       techStack: [
         "Go",
         "Python",
         "Medical Imaging",
-        "AI Integration",
-        "Cloud Deployment",
+        "Generative AI",
+        "Microservices",
+        "Google Cloud Platform (GCP)",
         "TypeScript",
         "Vue.js",
         "Docker",
       ],
       link: {
-        label: "Histopathai WSI Viewer",
+        label: "Histopathai",
         href: "https://histopathai.com/",
       },
     },
@@ -277,31 +280,25 @@ export const RESUME_DATA: ResumeData = {
     "Computer Vision",
     "Deep Learning",
     "Generative AI",
-    "Vision Transformers",
-    "Stable Diffusion",
-    "GANs",
+    "Machine Learning",
     "Python",
     "C",
     "C++",
     "Go",
     "TypeScript",
     "Embedded Linux",
-    "Yocto Project (BSP, Bitbake)",
-    "Device Tree",
-    "Systemd",
-    "Bash Scripting",
-    "GStreamer",
-    "V4L2 (Video4Linux2)",
+    "Yocto Project (BSP Development)",
+    "Bootloader & Device Tree Customization",
+    "Low-Latency Video Streaming",
     "Hardware Acceleration",
-    "Wi-Fi Direct",
+    "Wi-Fi Direct Networking",
+    "Bash Scripting",
     "Docker",
+    "Microservices",
+    "Event-Driven Architecture",
     "Google Cloud Platform (GCP)",
     "AWS",
     "MLOps",
-    "Microservices",
-    "Event-Driven Architecture",
-    "Machine Learning",
-    "Linux",
     "System Architecture",
   ],
 } as const;
