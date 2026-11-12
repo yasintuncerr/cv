@@ -5,20 +5,20 @@ export const RESUME_DATA: ResumeData = {
   initials: "YT",
   location: "Bursa, Turkey",
   locationLink: "https://www.google.com/maps/place/Bursa",
-  about: "Software Engineer | AI Product, Backend, Embedded Systems & Edge AI",
+  about:
+    "AI & Systems Engineer | Computer Vision, Generative AI, Embedded Linux",
   summary: (
     <>
-      Software Engineer building end-to-end AI products across cloud and edge
-      systems. Currently co-founding Mirasight, an AI-driven computer vision
-      startup. Experienced in backend architecture, scalable SaaS AI platforms,
-      and production computer vision pipelines. Strong background in Embedded
-      Linux, custom Yocto BSP development, and low-latency hardware-accelerated
-      video workflows. Led and delivered TUBITAK-funded R&D projects from
-      research to production-ready deployment.
+      Software Engineer with 8 years of experience building production systems
+      across AI, computer vision, and embedded software. Developed image
+      retrieval and generative AI products at AIT, a TÜBİTAK-funded digital
+      pathology platform, and low-latency video systems on embedded Linux.
+      Combines hands-on experience in model development and deployment with
+      backend engineering, system architecture, and hardware-level integration.
     </>
   ),
   avatarUrl: "https://github.com/yasintuncerr.png?size=400",
-  personalWebsiteUrl: "https://yasintuncer.com",
+  personalWebsiteUrl: "https://yasintuncer.com.tr",
   contact: {
     email: "yasintuncer@gmail.com",
     tel: "+905533193420",
@@ -48,15 +48,15 @@ export const RESUME_DATA: ResumeData = {
   education: [
     {
       school: "Bursa Uludağ University",
-      degree: "Bachelor's Degree in Electronics and Communication Engineering",
-      start: "2012",
-      end: "2018",
+      degree: "MSc in Computer Engineering",
+      start: "2024",
+      end: "2027 (Expected)",
     },
     {
       school: "Bursa Uludağ University",
-      degree: "Master's Degree in Computer Engineering",
-      start: "2024",
-      end: "2027 (Expected)",
+      degree: "BSc in Electronics Engineering",
+      start: "2012",
+      end: "2018",
     },
   ],
   work: [
@@ -65,56 +65,49 @@ export const RESUME_DATA: ResumeData = {
       link: "https://mirasight.com.tr",
       badges: [],
       title: "Co-Founder",
-      start: "2026",
+      start: "2025",
       end: "Present",
       description: (
         <>
-          Co-founding an early-stage AI startup building computer vision
-          products.
-          <ul className="mt-2 list-inside list-disc">
-            <li>
-              <strong>Product & Strategy:</strong> Defining product direction
-              and technical roadmap from the ground up.
-            </li>
-            <li>
-              <strong>AI Engineering:</strong> Designing and building the core
-              computer vision pipeline.
-            </li>
-            <li>
-              <strong>Full-Stack Delivery:</strong> Owning architecture,
-              backend, and infrastructure for the MVP.
-            </li>
-          </ul>
+          Leading technical development, including system architecture, computer
+          vision pipelines, backend services, and cloud infrastructure.
+          Responsible for translating product requirements into an end-to-end
+          technical implementation.
         </>
       ),
     },
     {
-      company: "Freelance / Independent Contractor",
-      link: "https://yasintuncer.com",
+      company: "Independent Contractor",
+      link: "https://yasintuncer.com.tr",
       badges: [],
-      title: "Embedded Systems Engineer (Linux)",
+      title: "Embedded Linux & Video Systems Engineer",
       start: "2024",
-      end: "Present",
+      end: "2026",
       description: (
         <>
-          Delivered embedded Linux solutions for edge AI deployments.
+          Built the software stack of a wireless camera-to-display video product
+          for a client under NDA.
           <ul className="mt-2 list-inside list-disc">
             <li>
-              <strong>Yocto BSP:</strong> Built and maintained lean, production
-              Yocto/BitBake OS images for embedded Linux boards.
+              <strong>BSP:</strong> Yocto layers for NXP i.MX8M Plus on a custom
+              board and the EVK: U-Boot, device tree, DDR timing, and two kernel
+              lines (6.6, 6.18) pinned by manifest for reproducible release
+              images.
             </li>
             <li>
-              <strong>Boot & Kernel:</strong> Customized U-Boot, device tree,
-              and kernel configuration; resolved bootloader and storage
-              reliability issues.
+              <strong>Video:</strong> C application on GStreamer covering
+              MIPI-CSI capture, hardware encoding, RTP over Wi-Fi, and a
+              G2D-composited display, at up to 1080p60 and 720p120.
             </li>
             <li>
-              <strong>Streaming:</strong> Developed zero-copy C pipelines for
-              hardware-accelerated video capture and streaming.
+              <strong>Reliability:</strong> Stream and recovery state machines,
+              link monitoring, and systemd watchdog integration so the device
+              recovers from link and pipeline faults without user action.
             </li>
             <li>
-              <strong>P2P Networking:</strong> Delivered a resilient Wi-Fi
-              Direct streaming stack integrated as systemd services.
+              <strong>Provisioning:</strong> Schema-driven web tool that
+              configures each device image before flashing, applied on first
+              boot through cloud-init.
             </li>
           </ul>
         </>
@@ -129,99 +122,138 @@ export const RESUME_DATA: ResumeData = {
       end: "2024",
       description: (
         <>
-          Conducted R&D on computer vision and industrial AI systems.
+          R&D engineer on products for textile design and digital printing.
+          Started in embedded development and moved through image processing
+          into applied machine learning.
           <ul className="mt-2 list-inside list-disc">
             <li>
-              <strong>Generative AI:</strong> Shipped production-ready models.
+              <strong>Generative AI:</strong> Core team member behind AI Tools,
+              the company's Stable Diffusion platform: text-to-image,
+              image-to-image, super-resolution, and a seamless-repeat module
+              that tiles a pattern at any offset with no visible seam or color
+              shift. Built the model serving and APIs on on-prem GPU servers.
             </li>
             <li>
-              <strong>CV Pipelines:</strong> Built robust training pipelines.
+              <strong>Visual Search:</strong> Built Archivist, a hybrid system
+              that crawls design storage, extracts embeddings from previews on
+              GPU servers, and runs similarity search and kNN classification
+              locally. Developed in-house, before vector databases were common.
             </li>
             <li>
-              <strong>On-Prem Systems:</strong> Deployed end-to-end AI stacks.
+              <strong>Raster Imaging:</strong> Processing pipelines for large
+              multi-channel, multi-layer TIFF and PSD production files.
             </li>
             <li>
-              <strong>TUBITAK:</strong> Led TEYDEB 1505 R&D delivery.
+              <strong>Embedded & Edge AI:</strong> Software for industrial Linux
+              boards and STM32-class microcontrollers: on-machine signal
+              acquisition and analysis, and real-time fabric defect inspection
+              with TensorRT-optimized models.
+            </li>
+            <li>
+              <strong>Funded R&D:</strong> Led delivery of a TÜBİTAK TEYDEB 1505
+              project.
             </li>
           </ul>
+        </>
+      ),
+    },
+    {
+      company: "IEEE Student Branch, Bursa Uludağ University",
+      link: "https://uludag.edu.tr/mmf/haber/view?id=4784",
+      badges: [],
+      title: "Team Lead, ULUCAR",
+      start: "2017",
+      end: "2018",
+      description: (
+        <>
+          Led the university team to third place in OpenZeka MARC, Turkey's
+          first mini autonomous race car competition. The car was an electric
+          platform with an NVIDIA Jetson TX2, stereo camera, 2D LiDAR, and IMU,
+          and had to complete the courses on its own. First hands-on work in
+          image processing, vehicle control, and deep learning.
         </>
       ),
     },
   ],
   projects: [
     {
-      title: "Histopathai — AI Medical Imaging Platform",
+      title: "Histopathai",
       description:
-        "Built a scalable AI platform for digital pathology: trained generative models for synthetic pathology data, developed event-driven microservices for cloud inference, and built a real-time gigapixel whole-slide-image viewer with AI-assisted annotation. Delivered as part of a TUBITAK 1005-funded R&D project.",
+        "Digital pathology platform funded by TÜBİTAK 1005. Go microservices on GCP process gigapixel whole-slide images and serve a browser viewer with annotation tools. The ML side covers a data layer with quality control across 10M+ tissue patches, benchmarks of pathology foundation models and MedGemma VLMs, and latent diffusion models for synthetic tissue.",
       techStack: [
         "Go",
         "Python",
-        "Medical Imaging",
-        "Generative AI",
-        "Microservices",
-        "Google Cloud Platform (GCP)",
-        "TypeScript",
+        "PyTorch",
+        "Foundation Models",
+        "VLM",
+        "GCP",
+        "Terraform",
         "Vue.js",
-        "Docker",
       ],
       link: {
-        label: "Histopathai",
+        label: "histopathai.com",
         href: "https://histopathai.com/",
       },
     },
     {
-      title: "Edge P2P Stream Engine",
+      title: "Call Intelligence Pipeline",
       description:
-        "Built a peer-to-peer streaming system for edge devices with low-latency transport and resilient connectivity.",
+        "Multi-tenant pipeline that transcribes call recordings, masks personal data, extracts meeting requests and complaints with an LLM, and writes them to a CRM. Postgres is both the store and the job queue (SKIP LOCKED with leases), row-level security isolates tenants, and idempotency keys keep retries against an unreliable API free of duplicates. Built as a time-boxed case study.",
       techStack: [
-        "C",
-        "Embedded Linux",
-        "GStreamer",
-        "V4L2",
-        "Wi-Fi Direct",
-        "Systemd",
+        "Go",
+        "PostgreSQL",
+        "Speech-to-Text",
+        "LLM",
+        "Hexagonal Architecture",
+        "Docker",
       ],
-      link: {
-        label: "p2p-stream",
-        href: "https://github.com/yasintuncerr/p2p-stream",
-      },
     },
     {
-      title: "CXR Synthetic Data Generator",
+      title: "Low-Latency Wireless Video Link",
       description:
-        "Developed a diffusion-based pipeline to generate synthetic chest X-ray images for dataset augmentation.",
+        "Camera-to-display video link for embedded devices: one C program runs as sender or receiver, with hardware-accelerated capture, encode, and display, a layered control protocol, and automatic recovery. Client work under NDA.",
+      techStack: [
+        "C",
+        "GStreamer",
+        "NXP i.MX8M Plus",
+        "Yocto",
+        "V4L2",
+        "Wi-Fi",
+        "systemd",
+      ],
+    },
+    {
+      title: "Medical Image Synthesis",
+      description:
+        "MSc research on diffusion models for medical imaging. Trained and compared Stable Diffusion 1.5 and 3.5, SiT, and Medfusion on fundus and histopathology data, with conditioning on medical foundation model embeddings and evaluation by FID, precision, and recall.",
       techStack: [
         "Python",
-        "Deep Learning",
-        "Generative AI",
+        "PyTorch",
         "Diffusion Models",
+        "Multi-GPU Training",
         "Medical Imaging",
       ],
     },
     {
-      title: "AI Tools Platform",
+      title: "AI Tools",
       description:
-        "Built a SaaS AI platform for image generation, enhancement, and editing used by design teams.",
+        "Generative AI suite for textile design teams: image generation, super-resolution, and seamless pattern repeats, served from on-prem GPU servers.",
       link: {
-        label: "aitools.ait.com.tr",
+        label: "ai.ait.com.tr",
         href: "https://ai.ait.com.tr/",
       },
       techStack: [
         "Python",
-        "Generative AI",
         "Stable Diffusion",
-        "Vision Transformers",
-        "Computer Vision",
+        "Model Serving",
+        "REST API",
         "Docker",
-        "Linux",
-        "OnPremise Systems",
-        "MLOps",
       ],
     },
     {
-      title: "Archivist Document AI",
+      title: "Archivist",
       description:
-        "Built an AI document system that automatically classifies, tags, and retrieves files using computer vision.",
+        "Visual search and automatic tagging for large design archives, built on image embeddings with local similarity search and kNN classification.",
       link: {
         label: "Archivist",
         href: "https://ai.ait.com.tr/project/archivist/",
@@ -229,76 +261,28 @@ export const RESUME_DATA: ResumeData = {
       techStack: [
         "Python",
         "C++",
-        "Machine Learning",
-        "Computer Vision",
-        "Deep Learning",
-        "Big TIFF Handling",
-        "PSD Parsing",
-        "Docker",
-        "Linux",
-        "OnPremise Systems",
+        "Image Embeddings",
+        "Similarity Search",
+        "TIFF / PSD",
       ],
-    },
-    {
-      title: "Fabric Defect Inspection AI",
-      description:
-        "Developed a real-time vision system to detect fabric defects before digital printing.",
-      techStack: [
-        "Python",
-        "C++",
-        "Computer Vision",
-        "Deep Learning",
-        "Embedded Systems",
-        "Linux",
-      ],
-    },
-    {
-      title: "E-Commerce Review Intelligence",
-      description:
-        "Built a sentiment analysis pipeline for e-commerce reviews to surface product and customer satisfaction insights.",
-      techStack: [
-        "Python",
-        "Natural Language Processing",
-        "Text Embeddings",
-        "Transformers",
-        "Machine Learning",
-        "Data Analysis",
-      ],
-      link: {
-        label: "Customer Reviews Analysis",
-        href: "https://github.com/yasintuncerr/customer-reviews-analysis",
-      },
-    },
-    {
-      title: "PiCam Dual-Stream Camera App",
-      description:
-        "Built a custom Raspberry Pi camera application with dual-stream support for still capture and live video.",
-      techStack: ["C", "C++", "Raspberry Pi", "Embedded Systems", "Linux"],
     },
   ],
   skills: [
-    "Computer Vision",
-    "Deep Learning",
-    "Generative AI",
-    "Machine Learning",
     "Python",
-    "C",
-    "C++",
+    "C / C++",
     "Go",
     "TypeScript",
+    "PyTorch",
+    "Computer Vision",
+    "Diffusion Models",
+    "VLMs & LLMs",
+    "Model Serving",
+    "TensorRT",
     "Embedded Linux",
-    "Yocto Project (BSP Development)",
-    "Bootloader & Device Tree Customization",
-    "Low-Latency Video Streaming",
-    "Hardware Acceleration",
-    "Wi-Fi Direct Networking",
-    "Bash Scripting",
+    "Yocto / BSP",
+    "GStreamer",
+    "PostgreSQL",
     "Docker",
-    "Microservices",
-    "Event-Driven Architecture",
-    "Google Cloud Platform (GCP)",
-    "AWS",
-    "MLOps",
-    "System Architecture",
+    "GCP",
   ],
 } as const;
