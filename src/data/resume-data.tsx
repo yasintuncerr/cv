@@ -81,7 +81,7 @@ export const RESUME_DATA: ResumeData = {
       link: "https://yasintuncer.com.tr",
       badges: [],
       title: "Embedded Linux & Video Systems Engineer",
-      start: "2024",
+      start: "2026",
       end: "2026",
       description: (
         <>
